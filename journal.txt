@@ -1,0 +1,6 @@
+23/9/24
+    will make the homepage. make it responsive later.
+    homepage will have 3 sections to choose how the recommendations will be made. one way by selecting a couple of movies. 2nd by genre. 3rd by searching for a movie, a single movie
+    the part where you select a couple of movies, the movies will be random.
+
+    starting with code now. will push this to master now and then create a branch for homepage. need to change the readme file before commit.
