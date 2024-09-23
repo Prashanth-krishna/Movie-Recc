@@ -1,0 +1,48 @@
+.movie-card-container {
+  position: relative;
+  border-radius: 15px;
+  border: none;
+  background-color: white;
+  box-shadow: 5px 2px 20px 0px rgba(252, 221, 221, 1);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: monospace;
+  * {
+    padding: 10px;
+  }
+  .movie-card-moviename {
+    font-weight: bolder;
+    font-size: 14px;
+    text-wrap: wrap;
+    .crime {
+      color: red;
+    }
+    .comedy {
+      color: teal;
+    }
+    .sci-fi {
+      color: rgb(255, 187, 0);
+    }
+    .horror {
+      color: black;
+    }
+    .action {
+      color: blue;
+    }
+  }
+  .movie-card-moviegenres {
+    font-size: 12px;
+  }
+  .movie-card-movierating {
+    font-weight: 500;
+  }
+  .movie-card-checkbox {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+}
+.movie-card-container:hover {
+  cursor: pointer;
+}

@@ -4,3 +4,14 @@
     the part where you select a couple of movies, the movies will be random.
 
     starting with code now. will push this to master now and then create a branch for homepage. need to change the readme file before commit.
+    created a new branch homepage.
+    will create two files: header and homepage
+    header done. satisifed for now. will make design and color changes later.
+
+    need to add a background color to whole page. will add it in app.css. and then start working on the homepage file.
+    having some problem with the header margin. if I add margin top to the header, it adds the margin to the whole body?
+    for now will add the margin-top as 0 and continue with other things.
+
+    adding display flex to the app fixed the issue.
+
+    alright. now will work on the homepage. all the styling, will fix it when I feel like.
