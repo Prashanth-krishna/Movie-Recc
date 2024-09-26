@@ -1,0 +1,25 @@
+.recbyselect-container {
+  width: 45vw;
+  .recbyselect-movies {
+    display: flex;
+    flex-wrap: wrap;
+
+    > div {
+      margin: 20px;
+      min-width: calc(100% / 6);
+    }
+  }
+  .recbyselect-get-rec {
+    padding: 10px 15px;
+    background: linear-gradient(130deg, teal, skyblue);
+    margin: 10px;
+    border: none;
+    color: white;
+  }
+  .recbyselect-get-rec:hover {
+    cursor: pointer;
+  }
+  .recbyselect-get-rec:active {
+    transform: scale(0.95);
+  }
+}

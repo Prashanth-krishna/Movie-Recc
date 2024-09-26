@@ -15,3 +15,29 @@
     adding display flex to the app fixed the issue.
 
     alright. now will work on the homepage. all the styling, will fix it when I feel like.
+
+    completed the basic homepage for movies by selection.
+25/9/24
+    will continue to make the recc by select part and finish it.
+    need to maintain the state in the parent component, pass a function to update the state to the child component
+    add a button to make an API call.
+    start another branch just to make merge conflict.
+
+    fixed some styles. will work on the state now.
+    completed the state. now only storing the movie ID. need to store the genre as an array of 5 elements. will work on it after break.
+26/9/24
+    things to complete today:
+        store the genre array after selecting movies
+        make the button to make the api call
+        start a new branch for recommendation by selecting the genre from drop down, just to have a merge conflict
+        resolve the conflict
+    
+    will start with storing the genre array for making the api call.
+    made the genre array. need to reduce it so it only has 5 elements ranked based on the count of their occurence in the genre array.
+    made it. need to go through the code again. is thriller a genre? if so, is feel good a genre? no. will keep thriller as a genre for now.
+
+    thinking of only sending the movie IDs to the backend.
+    will work on the button for the API call now.
+    done with the button. fixed the styles too.
+
+    have to commit the changes to the branch before creating the new branch.

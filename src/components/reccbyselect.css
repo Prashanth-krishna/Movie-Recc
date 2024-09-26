@@ -1,8 +1,0 @@
-.reccbyselect-container {
-  display: flex;
-  flex-wrap: wrap;
-  > div {
-    margin: 20px;
-    min-width: calc(100% / 6);
-  }
-}

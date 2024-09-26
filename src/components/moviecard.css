@@ -9,26 +9,39 @@
   text-align: center;
   font-family: monospace;
   * {
-    padding: 10px;
+    padding: 5px;
   }
   .movie-card-moviename {
     font-weight: bolder;
     font-size: 14px;
     text-wrap: wrap;
+    margin-top: 16px;
     .crime {
-      color: red;
+      background: linear-gradient(to right, maroon, red);
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+      background-clip: text;
     }
     .comedy {
-      color: teal;
+      background: linear-gradient(to right, teal, purple);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
     }
     .sci-fi {
-      color: rgb(255, 187, 0);
+      background: linear-gradient(to right, yellow, orange);
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      -webkit-background-clip: text;
     }
     .horror {
-      color: black;
+      color: gray;
     }
     .action {
-      color: blue;
+      background: linear-gradient(to right, blue, pink);
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+      background-clip: text;
     }
   }
   .movie-card-moviegenres {

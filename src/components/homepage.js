@@ -1,9 +1,9 @@
-import Reccbyselect from "./reccbyselect";
+import Recbyselect from "./recbyselect";
 
 export default function Homepage() {
   return (
     <div>
-      <Reccbyselect />
+      <Recbyselect />
     </div>
   );
 }

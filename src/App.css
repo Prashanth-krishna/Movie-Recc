@@ -1,11 +1,12 @@
 .App {
   text-align: center;
+  /* align-items: center; */
   background: linear-gradient(
     180deg,
     rgba(247, 247, 247, 1) 24%,
     rgba(252, 221, 221, 1) 92%
   );
-  height: 100vh;
+  min-height: 100vh;
   margin: 0;
   display: flex;
   flex-direction: column;
