@@ -41,3 +41,10 @@
     done with the button. fixed the styles too.
 
     have to commit the changes to the branch before creating the new branch.
+    committed. made a new branch. merged old branch with master. good so far.
+27/9/24
+    will work on the new branch and then merge.
+    things to do:
+        learn about git merge and merge conflicts
+        in the new branch, create UI for rec by dropdown
+        resolve conflict
