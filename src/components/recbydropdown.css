@@ -1,0 +1,75 @@
+.recbydropdown-container {
+  width: 30%;
+  display: flex;
+  font-size: small;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  .recbydropdown-dropdowns {
+    display: flex;
+    flex-direction: row;
+    .recbydropdown-dropdown {
+      margin: 10px;
+      padding: 10px;
+      height: min-content;
+      border: none;
+    }
+    .recbydropdown-dropdown:hover {
+      cursor: pointer;
+    }
+  }
+  .recbyselect-get-rec {
+    padding: 10px 15px;
+    background: linear-gradient(130deg, teal, skyblue);
+    margin: 10px;
+    border: none;
+    color: white;
+  }
+  .recbyselect-get-rec:hover {
+    cursor: pointer;
+  }
+  .recbyselect-get-rec:active {
+    transform: scale(0.95);
+  }
+  .error-message-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+
+    .error-message-background {
+      display: flex;
+      background-color: white;
+      padding: 25px;
+      border-radius: 5px;
+
+      .recbyselect-desp {
+        padding: 10px 15px;
+        color: teal;
+        margin: 10px;
+        border: none;
+        background-color: whitesmoke;
+      }
+      .recbyselect-desp-close {
+        padding: 10px 15px;
+        background: linear-gradient(130deg, teal, skyblue);
+        margin: 10px;
+        border: none;
+        color: white;
+      }
+      .recbyselect-desp:hover {
+        cursor: pointer;
+      }
+      .recbyselect-desp-close:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}

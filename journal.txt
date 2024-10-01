@@ -49,98 +49,36 @@
         in the new branch, create UI for rec by dropdown
         resolve conflict
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    after these lines
+    learnt about merge and conflict. merged the recbydropdown branch with main. resolved the merge conflict.
+
+    after these lines //after merge.
+
+    deleted the branches from github. didnt even give me a confirmation?
+
+    will start with UI for the dropdowns now. started with dropdowns. did some styling. need to think about labels, selected, button, error message. will work on it after the break.
+28/9/24
+    things to do:
+        fix UI for dropdowns little bit
+        error message
+        add modal for selection
+    
+    fixed the ui. made the functions for onchange and API call.
+    one div for error message and then need to add a modal. tomorrow?
+29/9/24
+    things to do:
+        error message add
+        add modal
+        start with search - do UI
+        check APIs on IMDB
+        add 10 more movies in DB
+
+    started with the error message. added the modal. will make it right tomorrow.
+30/9/24
+    added 10 more movies in DB. adding them in the dummy array. done.
+    things to do:
+        fix modal
+        search part, new branch? no
+        IMDB apis will search tomorrow.
+    will take a break now.
+1/10/24
+    starting.

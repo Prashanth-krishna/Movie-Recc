@@ -63,6 +63,66 @@ const MOVIE_DUMMY = [
     movierating: 8.0,
     moviegenres: "Comedy, Romance",
   },
+  {
+    id: 11,
+    moviename: "Scott Pilgrim vs the World",
+    movierating: 9.0,
+    moviegenres: "Romance, Action",
+  },
+  {
+    id: 12,
+    moviename: "Midsommar",
+    movierating: 7.0,
+    moviegenres: "Horror",
+  },
+  {
+    id: 13,
+    moviename: "I Love You, Man",
+    movierating: 7.5,
+    moviegenres: "Comedy, Romance",
+  },
+  {
+    id: 14,
+    moviename: "Everything, Everywhere all at once",
+    movierating: 8.0,
+    moviegenres: "Sci-Fi, Action",
+  },
+  {
+    id: 15,
+    moviename: "Definitely, Maybe",
+    movierating: 8.5,
+    moviegenres: "Romance, Comedy",
+  },
+  {
+    id: 16,
+    moviename: "Death Proof",
+    movierating: 8.0,
+    moviegenres: "Crime, Action",
+  },
+  {
+    id: 17,
+    moviename: "Blade Runner 2049",
+    movierating: 8.0,
+    moviegenres: "Aci-Fi, Action",
+  },
+  {
+    id: 18,
+    moviename: "As Good as it Gets",
+    movierating: 8.0,
+    moviegenres: "Romance, Comedy",
+  },
+  {
+    id: 19,
+    moviename: "500 Days of Summer",
+    movierating: 8.0,
+    moviegenres: "Romance, Comedy",
+  },
+  {
+    id: 20,
+    moviename: "The Nice Guys",
+    movierating: 8.5,
+    moviegenres: "Comedy, Action",
+  },
 ];
 
 export default function Recbyselect() {

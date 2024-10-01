@@ -3,6 +3,8 @@
   .recbyselect-movies {
     display: flex;
     flex-wrap: wrap;
+    height: 75vh;
+    overflow-y: scroll;
 
     > div {
       margin: 20px;
@@ -22,4 +24,13 @@
   .recbyselect-get-rec:active {
     transform: scale(0.95);
   }
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(252, 112, 112);
+}
+::-webkit-scrollbar-track {
+  background: #aaa;
 }
