@@ -168,6 +168,7 @@ export default function Recbyselect() {
   return (
     <>
       <div className="recbyselect-container">
+        <span className="title">Get Recommendations by selecting movies</span>
         <div className="recbyselect-movies">
           {MOVIE_DUMMY.map((movie) => {
             return (

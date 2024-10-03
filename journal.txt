@@ -82,3 +82,18 @@
     will take a break now.
 1/10/24
     starting.
+    completed the ui part.
+2/10/24
+    things to do:
+        finalize the ui
+        finalize homepage - or box
+        merge branch
+    finalized the homepage ui. need to think about the rec by search. will do it after break
+3/10/24
+    things to do:
+        some changes in rec by search
+        merge the branch
+        learn about react query?
+    starting with changes. need to make the button disabled until - one movie is fetched or will remove the button and clicking on the movie will show the recomendations?
+    make the button as search?
+    made as if clicking on searched movies will recommend. merging now.

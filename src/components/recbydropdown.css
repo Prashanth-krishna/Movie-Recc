@@ -5,6 +5,10 @@
   flex-direction: column;
   align-items: center;
   position: relative;
+  .title {
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
   .recbydropdown-dropdowns {
     display: flex;
     flex-direction: row;
@@ -46,6 +50,7 @@
 
     .error-message-background {
       display: flex;
+      flex-direction: column;
       background-color: white;
       padding: 25px;
       border-radius: 5px;

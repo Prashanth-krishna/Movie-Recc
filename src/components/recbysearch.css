@@ -1,0 +1,60 @@
+.recbysearch-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 15%;
+  .title {
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  input {
+    background: white;
+    padding: 10px;
+    border: none;
+  }
+  input:focus {
+    outline: none;
+  }
+  .recbyselect-get-rec {
+    padding: 10px 15px;
+    background: linear-gradient(130deg, teal, skyblue);
+    margin: 10px;
+    border: none;
+    color: white;
+  }
+  .recbyselect-get-rec:hover {
+    cursor: pointer;
+  }
+  .movie-cards {
+    display: flex;
+    flex-wrap: wrap;
+    .movie-card-container {
+      margin: 5px;
+      position: relative;
+      border-radius: 15px;
+      border: none;
+      background-color: white;
+      box-shadow: 5px 2px 20px 0px rgba(252, 221, 221, 1);
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      font-family: monospace;
+      * {
+        padding: 5px;
+      }
+      .movie-card-moviename {
+        font-weight: bolder;
+        font-size: 14px;
+        text-wrap: wrap;
+        margin-top: 16px;
+      }
+
+      .movie-card-movieyear {
+        font-weight: 500;
+      }
+    }
+    .movie-card-container:hover {
+      cursor: pointer;
+    }
+  }
+}

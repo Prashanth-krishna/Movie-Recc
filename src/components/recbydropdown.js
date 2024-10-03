@@ -38,7 +38,7 @@ export default function RecbyDropdowns() {
       setPref1("Action");
     } else if (pref2 === "Feel-Good") {
       setPref2("Crime");
-    } else if (pref1 === "Feel-Good") {
+    } else if (pref3 === "Feel-Good") {
       setPref3("Comedy");
     } else {
       setPref4("Sci-Fi");
@@ -50,18 +50,22 @@ export default function RecbyDropdowns() {
   return (
     <>
       <div className="recbydropdown-container">
+        <span className="title">Get Recommendations by Genre</span>
         {modalActive && (
           <div className="error-message-container">
             <div className="error-message-background">
-              <button className="recbyselect-desp" onClick={handleAPICall}>
-                I'm Desperate
-              </button>
-              <button
-                className="recbyselect-desp-close"
-                onClick={handleCloseModal}
-              >
-                OK
-              </button>
+              <p>Feel-Good is not a genre.</p>
+              <div>
+                <button className="recbyselect-desp" onClick={handleAPICall}>
+                  I'm Desperate
+                </button>
+                <button
+                  className="recbyselect-desp-close"
+                  onClick={handleCloseModal}
+                >
+                  OK
+                </button>
+              </div>
             </div>
           </div>
         )}
@@ -91,6 +95,7 @@ export default function RecbyDropdowns() {
               onChange={handleDropDownChange2}
               className="recbydropdown-dropdown"
             >
+              <option value=""></option>
               <option value="Action">Action</option>
               <option value="Crime">Crime</option>
               <option value="Comedy">Comedy</option>
@@ -108,6 +113,7 @@ export default function RecbyDropdowns() {
               onChange={handleDropDownChange3}
               className="recbydropdown-dropdown"
             >
+              <option value=""></option>
               <option value="Action">Action</option>
               <option value="Crime">Crime</option>
               <option value="Comedy">Comedy</option>
@@ -125,6 +131,7 @@ export default function RecbyDropdowns() {
               onChange={handleDropDownChange4}
               className="recbydropdown-dropdown"
             >
+              <option value=""></option>
               <option value="Action">Action</option>
               <option value="Crime">Crime</option>
               <option value="Comedy">Comedy</option>
