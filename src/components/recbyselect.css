@@ -1,11 +1,24 @@
 .recbyselect-container {
   width: 45vw;
+  .title {
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  div::-webkit-scrollbar {
+    width: 10px;
+  }
+  div::-webkit-scrollbar-thumb {
+    background: rgb(252, 112, 112);
+  }
+  div::-webkit-scrollbar-track {
+    background: #aaa;
+  }
+
   .recbyselect-movies {
     display: flex;
     flex-wrap: wrap;
     height: 75vh;
-    overflow-y: scroll;
-
+    overflow-y: auto;
     > div {
       margin: 20px;
       min-width: calc(100% / 6);
@@ -24,13 +37,4 @@
   .recbyselect-get-rec:active {
     transform: scale(0.95);
   }
-}
-::-webkit-scrollbar {
-  width: 10px;
-}
-::-webkit-scrollbar-thumb {
-  background: rgb(252, 112, 112);
-}
-::-webkit-scrollbar-track {
-  background: #aaa;
 }

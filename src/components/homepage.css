@@ -1,3 +1,8 @@
 .homepage-container {
   display: flex;
+  justify-content: space-around;
+  .or {
+    padding-top: 10em;
+    font-weight: 600;
+  }
 }
